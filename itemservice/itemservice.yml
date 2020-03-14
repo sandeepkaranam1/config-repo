@@ -9,7 +9,7 @@ spring:
   database:
     driverClassName: "com.mysql.cj.jdbc.Driver"
   datasource:
-    url: "jdbc:mysql://localhost:3306/itemsharingdatabase?serverTimezone=EDT"
+    url: "jdbc:mysql://localhost:3306/itemsharingdatabase?serverTimezone=EST"
     username: "root"
     password: "{cipher}5368ac684fa8b770bf6c27c06d960ff8cfa8b01ae003ca76e95429b6955fd686"
     testWhileIdle: "true"
